@@ -1,0 +1,34 @@
+<svg width="531" height="367" viewBox="0 0 531 367" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="531" height="367" fill="#CCD2E4"/>
+<rect x="7" y="6" width="519" height="33" fill="#57539B"/>
+<rect x="7" y="39" width="519" height="312" fill="white"/>
+<circle cx="31.5" cy="22.5" r="8.5" fill="white"/>
+<circle cx="55.5" cy="22.5" r="8.5" fill="white"/>
+<circle cx="79.5" cy="22.5" r="8.5" fill="white"/>
+<rect x="55" y="75" width="89" height="10" fill="#616177"/>
+<rect x="55" y="92" width="89" height="10" fill="#616177"/>
+<rect x="55" y="109" width="148" height="10" fill="#616177"/>
+<rect x="55" y="126" width="175" height="10" fill="#616177"/>
+<rect x="62" y="189" width="27" height="124" fill="#CED6DD"/>
+<rect x="62" y="225" width="27" height="88" fill="#93C6EB"/>
+<rect x="62" y="251" width="27" height="62" fill="#39AEFF"/>
+<rect x="106" y="189" width="27" height="124" fill="#F5F5F5"/>
+<rect x="106" y="233" width="27" height="80" fill="#BDF3D9"/>
+<rect x="106" y="264" width="27" height="49" fill="#40FF9B"/>
+<rect x="150" y="189" width="27" height="124" fill="#F5F5F5"/>
+<rect x="150" y="217" width="27" height="96" fill="#C0C0F3"/>
+<rect x="150" y="242" width="27" height="71" fill="#57539B"/>
+<rect x="194" y="189" width="27" height="124" fill="#F5F5F5"/>
+<rect x="194" y="252" width="27" height="61" fill="#FFCE6C"/>
+<rect x="194" y="267" width="27" height="46" fill="#FFB600"/>
+<rect x="325" y="247" width="27" height="6" fill="#CCD2E4"/>
+<rect x="315" y="246" width="8" height="8" fill="#2095F3"/>
+<rect x="390" y="247" width="27" height="6" fill="#CCD2E4"/>
+<rect x="380" y="246" width="8" height="8" fill="#57539B"/>
+<rect x="455" y="247" width="27" height="6" fill="#CCD2E4"/>
+<rect x="445" y="246" width="8" height="8" fill="#FFB600"/>
+<circle cx="379.5" cy="167.5" r="65.5" fill="#EFEFEF"/>
+<circle cx="379.5" cy="167.5" r="62.5" fill="#39AEFF"/>
+<path d="M380 176V105H379.5C352.227 105 329.035 122.468 320.5 146.827L380 176Z" fill="#FFB600"/>
+<path d="M442 167.5C442 133.149 414.288 105.271 380 105.002V229.998C414.288 229.729 442 201.851 442 167.5Z" fill="#B3B5EC"/>
+</svg>

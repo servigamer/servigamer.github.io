@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+body {
+    color: #797979;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Rajdhani", sans-serif;
+    color: #3a414e;
+    line-height: 1.25
+}
+
+h1,
+.h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2
+}
+
+@media (min-width: 600px) {
+    h1,
+    .h1 {
+        font-size: 50px
+    }
+}
+
+h2,
+.h2 {
+    font-size: 28px;
+    font-weight: 700
+}
+
+@media (min-width: 1000px) {
+    h2,
+    .h2 {
+        font-size: 36px
+    }
+}
+
+h3,
+.h3 {
+    font-size: 20px;
+    font-weight: 600
+}
+
+@media (min-width: 1000px) {
+    h3,
+    .h3 {
+        font-size: 22px
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (max-width: 991px) {}
+
+@media (min-width: 991px) {}
+
+@media (min-width: 600px) {}
+
+.contact-social-media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-social-media-container>div {
+    box-sizing: border-box;
+    margin: 0 5px 0 0;
+}
+
+.contact-social-media-container>div:nth-child(2n) {
+    margin-right: 0;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.social-media-link {
+    text-decoration: none;
+}
+
+a.instagram-color-2 {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+a.instagram-color:link {
+    color: #f09433;
+}
+
+a.instagram-color:visited {
+    color: hotpink;
+}
+
+a.instagram-color:hover {
+    color: #e164a2;
+    background: transparent;
+}
+
+a.instagram-color:active {
+    color: #f09433;
+}
+
+.pl-4 {
+    padding-left: 4%;
+}
+
+@media (max-width: 991px) {
+    .social-media-container>div {
+        box-sizing: border-box;
+        margin: 8px 8px 8px 0px;
+    }
+}
+
+@media (min-width: 991px) {
+    .social-media-container {
+        display: flex;
+        margin: 0 0 0 4%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .social-media-container>div {
+        box-sizing: border-box;
+        margin: 0 10px 0 0;
+    }
+    .social-media-container>div:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+     :target:before {
+        content: "";
+        display: block;
+        height: 106px;
+        margin: -106px 0 0;
+    }
+}
+
+@media (min-width: 991px) {
+     :target:before {
+        content: "";
+        display: block;
+        height: 106px;
+        margin: -106px 0 0;
+    }
+}
+
+.card:hover {
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgb(33 20 106 / 10%);
+}
+
+.card:hover {
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgb(33 20 106 / 10%);
+}
+
+.card {
+    padding: 30px 35px;
+    border: 0;
+    border-radius: 0;
+    background: #faf9ff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.card-icon {
+    margin-bottom: 12px
+}
+
+.card-icon i,
+.card-icon span {
+    font-size: 30px;
+    color: #21146a
+}
+
+.bg-light {
+    background: var(--bs-light);
+}
+
+@media (min-width: 1000px) {
+    .p-100px {
+        padding: 100px 0;
+    }
+}
+
+.p-100px {
+    padding: 60px 0;
+}
+
+.section-margin {
+    margin: 60px 0
+}
+
+@media (min-width: 1000px) {
+    .section-margin {
+        margin: 100px 0
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-margin {
+        margin: 135px 0
+    }
+}
+
+.section-intro {
+    max-width: 630px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.section-intro-title {
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px
+}
+
+.section-intro-subtitle {
+    font-size: 15px;
+    color: #797979;
+    margin-bottom: 0
+}
+
+@media (min-width: 1000px) {
+    .pb-85px {
+        padding-bottom: 85px;
+    }
+}
+
+.pb-85px {
+    padding-bottom: 45px;
+}
+
+header.header-section {
+    padding: 0px;
+}
+
+.header-section {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: 0.4s, all 0.3s linear
+}
+
+.hero-banner {
+    position: relative;
+    background: #22195b;
+    background-size: cover;
+    padding: 90px 0 60px 0;
+    z-index: 1
+}
+
+.hero-banner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: url(../img/banner/banner-bg.png) left center no-repeat;
+    background-size: cover;
+    z-index: -1
+}
+
+@media (min-width: 600px) {
+    .hero-banner {
+        padding: 150px 0 120px 0
+    }
+}
+
+@media (min-width: 991px) {
+    .hero-banner {
+        padding: 175px 0 160px 0
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-banner {
+        padding: 265px 0 275px 0
+    }
+}
+
+.hero-banner-img {
+    position: relative
+}
+
+@media (min-width: 1200px) {
+    .hero-banner-img img {
+        position: absolute;
+        top: 0;
+        left: -110px
+    }
+}
+
+.hero-banner-content h1 {
+    color: #fff;
+    margin-bottom: 22px;
+    max-width: 300px
+}
+
+.hero-banner-content p {
+    color: #fff;
+    margin-bottom: 45px
+}
+
+.header-section.navbar_fixed .main_menu {
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    background: #412fb3;
+    z-index: 99;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1)
+}
+
+.header-section .navbar .nav .nav-item .nav-link {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block
+}
+
+.header-section .navbar .nav .nav-item:hover .nav-link,
+.header-section .navbar .nav .nav-item.active .nav-link {
+    color: #fff;
+    opacity: .75
+}
+
+.navbar-toggler {
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    cursor: pointer;
+    margin-top: 27px;
+    margin-bottom: 23px
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-bottom: 23px
+    }
+    .header-section .navbar {
+        background: #412fb3
+    }
+    .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+        opacity: 1
+    }
+    .navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0
+    }
+    .navbar-toggler[aria-expanded="true"] span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px
+    }
+    .navbar-toggler[aria-expanded="true"] span:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative
+    }
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer
+    }
+    .navbar .container {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    .header-section .navbar .nav .nav-item .nav-link {
+        line-height: 30px;
+        margin-right: 0px;
+        display: block;
+        border-bottom: 1px solid #ededed33;
+        border-radius: 0px
+    }
+}
+
+.header-section .navbar-brand {
+    margin-right: 30px
+}
+
+.header-section .menu_nav {
+    width: 100%
+}
+
+@media (min-width: 991px) {
+    .header-section .navbar {
+        padding: 20px 0
+    }
+}
+
+.header-section .navbar .nav .nav-item {
+    margin-right: 30px
+}
+
+.header-section .navbar .nav .nav-item:last-child {
+    margin-right: 0px
+}
+
+.footer-section {
+    padding: 120px 0px 120px;
+    background: #0e1424
+}
+
+@media (max-width: 1024px) {
+    .footer-section {
+        font-size: 18px
+    }
+}
